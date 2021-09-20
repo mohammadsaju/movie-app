@@ -1,0 +1,35 @@
+.media{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #282c34;
+    color: white;
+    padding: 7px;
+    margin: 7px 0px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.media:hover{
+    background: #57606f;
+}
+@media(max-width: 550px) {
+    .media{
+        width: 46%;
+    }
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    padding: 10px 0;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
+}

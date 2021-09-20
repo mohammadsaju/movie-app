@@ -1,0 +1,20 @@
+.trending{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.page__title{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: white;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 1000px) {
+    .page__title{
+        font-size: 6vw;
+    }
+}
